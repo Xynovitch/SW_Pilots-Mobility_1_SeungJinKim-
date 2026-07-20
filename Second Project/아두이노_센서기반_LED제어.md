@@ -14,7 +14,7 @@ Erratic values (noise) can occur due to the physical limitations of the sensors 
 By storing multiple sensor readings in an array and using their average, we can smooth out temporary noise, increasing accuracy and response stability. Additionally, we apply exception handling using conditional statements (`if`) to ignore absurdly out-of-range values (e.g., when the ultrasonic sensor measures a distance of 0 or less).
 
 ## 3. Sensor Data Processing and LED Control Algorithm Source Code
-![alt text](<images/light _sensor_src.png>)
+![alt text](<images/light sensor code.png>)
 **Algorithm Design:**
 1.  **Light Sensor:** Turns on the LED when the surroundings get dark (value drops). Turns it off when bright.
 2.  **Distance Sensor:** Increases the brightness of the red LED to warn when an object gets closer (distance shortens).
